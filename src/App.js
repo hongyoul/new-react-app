@@ -9,7 +9,7 @@ export const Count = createSlice({
   initialState: {
     transactions: [],
     totalAmount: 0,
-  },
+  }, 
   reducers: {
     addTransaction: (state, action) => {
       const newTransaction = {
